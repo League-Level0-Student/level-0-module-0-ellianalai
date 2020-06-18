@@ -5,8 +5,8 @@ import javax.swing.JOptionPane;
 public class Greeter {
 	public static void main(String[] args) {
 System.out.println("Hello World");
-
+System.out.println("This is fun");
 String input = JOptionPane.showInputDialog("What is your name?");
-JOptionPane.showMessageDialog(null,"Hello "+input);
+JOptionPane.showMessageDialog(null,"Hello " + input);
 	}
 }
