@@ -16,7 +16,11 @@ if (code.equals("The Chamber of Secrets"))	{
 	score ++;
 }
 				// 4.  if the user's answer was correct, add one to their score 
-		
+String code1 = JOptionPane.showInputDialog("In Keeper of the Lost Cities what identity did Mr. Forkle first reveal ");				
+// 3.  Use an if statement to check if their answer is correct
+if (code1.equals("Sir Astin"))	{
+score ++;
+}		
 		// MAKE MORE QUESTIONS. Ask more questions by repeating the above 
 				// Option: Subtract a point from their score for a wrong answer
 		
