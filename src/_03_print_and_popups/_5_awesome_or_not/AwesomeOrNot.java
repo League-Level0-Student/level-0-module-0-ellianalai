@@ -25,19 +25,26 @@ String code = JOptionPane.showInputDialog("Enter Something that you think is awe
 	// 5. If your variable is  0
 
 if(randomNumber == 0) {
-
+	System.out.println(code + " is awesome ");
 }
 	// -- tell the user whatever they entered is awesome!
 
 	// 6. If your variable is  1
-
+if(randomNumber == 1) {
+	System.out.println(code + " is ok ");
+}
 	// -- tell the user whatever they entered is OK.
 
 	// 7. If your variable is  2
-
+if(randomNumber == 2) {
+	System.out.println(code + " is boring ");	
+}
 	// -- tell the user whatever they entered is boring.
 
 	// 8. If your variable is  3
+if(randomNumber == 3) {
+	System.out.println(code + " is terrible ");	
+}
 
 	// -- invent your own message to give to the user (be nice)
 
